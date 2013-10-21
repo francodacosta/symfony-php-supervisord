@@ -1,0 +1,30 @@
+{
+    "name": "francodacosta/symfony-supervisord",
+    "type": "library",
+    "version": "0.0.1",
+    "description": "Supervisord configuration generator bundle for symfony2",
+    "keywords": ["supervisord", "API", "symfony2"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuno Costa",
+            "email": "nuno@francodacosta.com",
+            "homepage": "http://www.francodacosta.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "francodacosta/supervisord": "dev-master"
+    },
+
+    "require-dev": {
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Francodacosta": "src/"
+        }
+    }
+
+}

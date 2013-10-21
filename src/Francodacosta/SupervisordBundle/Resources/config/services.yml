@@ -1,0 +1,20 @@
+parameters:
+#    francodacosta_supervisord.example.class: Francodacosta\SupervisordBundle\Example
+
+services:
+#    francodacosta_supervisord.example:
+#        class: %francodacosta_supervisord.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+#
+  francodacosta.supervisord.processor.command:
+    class: Francodacosta\Supervisord\Processors\CommandConfigurationProcessor
+
+  francodacosta.supervisord.configuration:
+    class: Francodacosta\Supervisord\Configuration
+    calls:
+        - [registerProcessor, [@francodacosta.supervisord.processor.command]]
+
+  francodacosta.supervisord.loader.array:
+    class: Francodacosta\Supervisord\Loader\ArrayLoader
+    calls:
+        -   [setConfiguration, [@francodacosta.supervisord.configuration]]

@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "350a48439061b33479e25259ea5b24f9",
+    "packages": [
+        {
+            "name": "francodacosta/supervisord",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/francodacosta/php-supervisord.git",
+                "reference": "dafc9d53a85a6f9f1602f266a050dbda6d6b951a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/francodacosta/php-supervisord/zipball/dafc9d53a85a6f9f1602f266a050dbda6d6b951a",
+                "reference": "dafc9d53a85a6f9f1602f266a050dbda6d6b951a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Francodacosta": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Costa",
+                    "email": "nuno@francodacosta.com",
+                    "homepage": "http://www.francodacosta.com"
+                }
+            ],
+            "description": "Supervisord configuration generator",
+            "keywords": [
+                "api",
+                "supervisord"
+            ],
+            "time": "2013-10-21 18:42:11"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "francodacosta/supervisord": 20
+    },
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": [
+
+    ]
+}
