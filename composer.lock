@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "350a48439061b33479e25259ea5b24f9",
+    "hash": "3cc05748da2798780ca97cdf94465746",
     "packages": [
         {
             "name": "francodacosta/supervisord",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/francodacosta/php-supervisord.git",
-                "reference": "dafc9d53a85a6f9f1602f266a050dbda6d6b951a"
+                "reference": "3b184c5dfb2d9908d250cea0907252dcc4d0b8c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/francodacosta/php-supervisord/zipball/dafc9d53a85a6f9f1602f266a050dbda6d6b951a",
-                "reference": "dafc9d53a85a6f9f1602f266a050dbda6d6b951a",
+                "url": "https://api.github.com/repos/francodacosta/php-supervisord/zipball/3b184c5dfb2d9908d250cea0907252dcc4d0b8c4",
+                "reference": "3b184c5dfb2d9908d250cea0907252dcc4d0b8c4",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
                 "api",
                 "supervisord"
             ],
-            "time": "2013-10-21 18:42:11"
+            "time": "2013-10-21 20:22:56"
         }
     ],
     "packages-dev": [
