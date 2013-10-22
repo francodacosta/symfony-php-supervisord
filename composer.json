@@ -1,7 +1,6 @@
 {
     "name": "francodacosta/symfony-supervisord",
     "type": "library",
-    "version": "0.0.1",
     "description": "Supervisord configuration generator bundle for symfony2",
     "keywords": ["supervisord", "API", "symfony2"],
     "homepage": "",
