@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "francodacosta/supervisord": "dev-master@dev"
+        "francodacosta/supervisord": "dev-master"
     },
 
     "require-dev": {
