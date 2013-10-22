@@ -55,3 +55,4 @@ process_name=%(program_name)s_%(process_num)02d
 numprocs=3
 ```
 
+All you need to do is to include it in your supervidord.conf main file.
