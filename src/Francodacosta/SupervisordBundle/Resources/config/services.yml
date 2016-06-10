@@ -12,9 +12,9 @@ services:
   francodacosta.supervisord.configuration:
     class: Francodacosta\Supervisord\Configuration
     calls:
-        - [registerProcessor, [@francodacosta.supervisord.processor.command]]
+        - [registerProcessor, ["@francodacosta.supervisord.processor.command"]]
 
   francodacosta.supervisord.loader.array:
     class: Francodacosta\Supervisord\Loader\ArrayLoader
     calls:
-        -   [setConfiguration, [@francodacosta.supervisord.configuration]]
+        -   [setConfiguration, ["@francodacosta.supervisord.configuration"]]
